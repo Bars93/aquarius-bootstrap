@@ -110,7 +110,7 @@
 			</div>
 			<div id="cpw_err" class="error">Пароль и его подтверждение не совпадают</div>
 			<br>
-			<input type="submit" tabindex="5" value="Регистрация" name="reg_btn" id="reg_btn" class="reg_btn">
+			<input type="submit" tabindex="5" value="Регистрация" name="reg_btn" id="reg_btn" class="reg_btn btn btn-primary">
 		</form>
 
 		<script type="text/javascript">
