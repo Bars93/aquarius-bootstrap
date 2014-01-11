@@ -1,7 +1,7 @@
 .maincontainer {
     box-shadow: 0px 0px 12px rgba(91,96,247,1);
     -moz-box-shadow: 0px 0px 12px rgba(91,96,247,1);
-    -webkit-box-shadow: 0px 0px 12px rgba(91,96,247,1);box-shadow: 10px 0px #;
+    -webkit-box-shadow: 0px 0px 12px rgba(91,96,247,1);
     margin-top: 2px;
 }
 .login-form input {
@@ -18,7 +18,7 @@
     background: -ms-linear-gradient(top,  rgba(173,37,186,1) 0%,rgba(72,27,73,1) 100%); /* IE10+ */
     background: linear-gradient(to bottom,  rgba(173,37,186,1) 0%,rgba(72,27,73,1) 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ad25ba', endColorstr='#481b49',GradientType=0 ); /* IE6-8 */
-    min-height: 40px;
+    max-height:60px;
     box-shadow: 0px 1px 4px rgb(51, 51, 102);
     -moz-box-shadow: 0px 1px 4px rgb(51, 51, 102);
     -webkit-box-shadow: 0px 1px 6px rgb(51, 51, 102);
@@ -27,6 +27,65 @@
 .login-form {
     z-index: 1;
 }
-img#logo {
+.img-container {
     z-index: -2;
+    margin: 10px;
+}
+.helpreg {
+    text-align: left;
+    margin-left: 10px;
+}
+.block {
+    box-shadow: inset 0px 0px 14px rgba(91,96,247,1);
+    -moz-box-shadow: inset 0px 0px 14px rgba(91,96,247,1);
+    -webkit-box-shadow: inset 0px 0px 14px rgba(91,96,247,1);
+
+    text-align: center;
+}
+.body-container {
+    color: rgba(91, 96, 247, 1);
+    box-shadow: 0px 0px 14px rgba(91,96,247,1);
+    -moz-box-shadow: 0px 0px 14px rgba(91,96,247,1);
+    -webkit-box-shadow: 0px 0px 14px rgba(91,96,247,1);
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    min-height: 150px !important;
+
+}
+.nav-container {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.welcome {
+    font-style: normal;
+    text-align: center;
+    font-size: 18pt;
+    color:rgba(91,96,247,1);
+}
+.users-table thead th {
+    text-align: center !important;
+}
+.regform {
+    display: inline-block !important;
+    border: 1px dotted rgba(91,96,247,1);
+    padding: 5px;
+}
+.error {
+background: #ffdab9;
+border: 2px solid darkred;
+border-radius: 5px 5px;
+width: 60%;
+display: inline-block;
+float: none;
+overflow: hidden;
+padding: 5px;
+height: 1px;
+visibility: hidden;
+}
+.regform input[type="text"], .regform input[type="password"] {
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 25px;
 }
